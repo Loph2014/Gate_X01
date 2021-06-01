@@ -5,117 +5,189 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 CN_415, server: bj.lygvpn.xyz, port: 10005, type: vmess, uuid: bfe6249a-af38-316b-9621-4ab1787e2666, alterId: 16, cipher: auto, tls: false}
   - {name: 🇨🇳 CN_10, server: 52.81.99.89, port: 8002, type: vmess, uuid: c8c92c4d-8e6f-4f24-a857-76fa2ecaaa16, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 52.81.99.89}}
-  - {name: 🇭🇰 HK_1077, server: www.zx07.top, port: 443, type: trojan, password: L1qNeGrY58ApwrRA, sni: www.zx07.top}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075, server: hkaz1.biteb.club, port: 51002, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
-  - {name: Relay_ | 2.35Mb, server: vip345.xyz, port: 39009, type: vmess, uuid: 49955b62-27c7-3734-bc6b-1c60c0ab0059, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071, server: hkaz1.biteb.club, port: 51011, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, server: jpaz1.biteb.club, port: 51015, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jpaz1.biteb.club}}
+  - {name: 🇨🇳 CN_415, server: bj.lygvpn.xyz, port: 10005, type: vmess, uuid: bfe6249a-af38-316b-9621-4ab1787e2666, alterId: 16, cipher: auto, tls: false}
   - {name: 🇨🇳 CN_09, server: 52.81.99.89, port: 8000, type: vmess, uuid: c8c92c4d-8e6f-4f24-a857-76fa2ecaaa16, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: baidu.com}}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071 2, server: hkaz1.biteb.club, port: 51011, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1070, server: hkaz1.biteb.club, port: 51014, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
+  - {name: 🇭🇰 HK_1064 | 2.38Mb, server: 13.75.111.138, port: 39021, type: vmess, uuid: 49955b62-27c7-3734-bc6b-1c60c0ab0059, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 13.75.111.138}}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071, server: hkaz1.biteb.club, port: 51011, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
+  - {name: Relay_ |15.44Mb, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, sni: hk31.ssgnode.ga}
+  - {name: 🇭🇰 HK_23 |23.20Mb, server: 52.184.71.53, port: 11035, type: trojan, password: ZOfTWgka}
+  - {name: Relay_ | 2.35Mb, server: vip345.xyz, port: 39009, type: vmess, uuid: 49955b62-27c7-3734-bc6b-1c60c0ab0059, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075, server: hkaz1.biteb.club, port: 51002, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: hkaz1.biteb.club}}
+  - {name: 🇰🇷 Relay_🇰🇷KR-🇷🇺RU_1307 |10.72Mb, server: vip345.xyz, port: 39022, type: vmess, uuid: 49955b62-27c7-3734-bc6b-1c60c0ab0059, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /sn, ws-headers: {Host: vip345.xyz}}
+  - {name: Relay_ |21.81Mb, server: vip345.xyz, port: 39006, type: vmess, uuid: 49955b62-27c7-3734-bc6b-1c60c0ab0059, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: vip345.xyz}}
+  - {name: 🇭🇰 HK_1063 | 2.48Mb, server: 13.75.111.138, port: 39020, type: vmess, uuid: 49955b62-27c7-3734-bc6b-1c60c0ab0059, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 13.75.111.138}}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285, server: jpaz1.biteb.club, port: 51015, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jpaz1.biteb.club}}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1280, server: jpaz1.biteb.club, port: 51001, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: jpaz1.biteb.club}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_2474, server: 01.HKG.ASIA.BIGAIRPORT.NET, port: 80, type: vmess, uuid: 9d2aa977-4ba6-45de-a694-a3a2b30df394, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 01.HKG.ASIA.BIGAIRPORT.NET}}
+  - {name: 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1737, server: sgaws3.biteb.club, port: 443, type: vmess, uuid: 4cd9879b-a999-3180-827f-269eb0b4d574, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: sgaws3.biteb.club}}
+  - {name: Relay_ |21.26Mb, server: 15.197.178.75, port: 25000, type: vmess, uuid: 49955b62-27c7-3734-bc6b-1c60c0ab0059, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /xgr, ws-headers: {Host: 15.197.178.75}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 CN_415
       - 🇨🇳 CN_10
-      - 🇭🇰 HK_1077
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
-      - Relay_ | 2.35Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇨🇳 CN_415
       - 🇨🇳 CN_09
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071 2
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1070
+      - 🇭🇰 HK_1064 | 2.38Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
+      - Relay_ |15.44Mb
+      - 🇭🇰 HK_23 |23.20Mb
+      - Relay_ | 2.35Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
+      - 🇰🇷 Relay_🇰🇷KR-🇷🇺RU_1307 |10.72Mb
+      - Relay_ |21.81Mb
+      - 🇭🇰 HK_1063 | 2.48Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1280
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2474
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1737
+      - Relay_ |21.26Mb
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN_415
       - 🇨🇳 CN_10
-      - 🇭🇰 HK_1077
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
-      - Relay_ | 2.35Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇨🇳 CN_415
       - 🇨🇳 CN_09
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071 2
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1070
+      - 🇭🇰 HK_1064 | 2.38Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
+      - Relay_ |15.44Mb
+      - 🇭🇰 HK_23 |23.20Mb
+      - Relay_ | 2.35Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
+      - 🇰🇷 Relay_🇰🇷KR-🇷🇺RU_1307 |10.72Mb
+      - Relay_ |21.81Mb
+      - 🇭🇰 HK_1063 | 2.48Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1280
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2474
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1737
+      - Relay_ |21.26Mb
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN_415
       - 🇨🇳 CN_10
-      - 🇭🇰 HK_1077
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
-      - Relay_ | 2.35Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇨🇳 CN_415
       - 🇨🇳 CN_09
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071 2
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1070
+      - 🇭🇰 HK_1064 | 2.38Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
+      - Relay_ |15.44Mb
+      - 🇭🇰 HK_23 |23.20Mb
+      - Relay_ | 2.35Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
+      - 🇰🇷 Relay_🇰🇷KR-🇷🇺RU_1307 |10.72Mb
+      - Relay_ |21.81Mb
+      - 🇭🇰 HK_1063 | 2.48Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1280
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2474
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1737
+      - Relay_ |21.26Mb
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_415
       - 🇨🇳 CN_10
-      - 🇭🇰 HK_1077
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
-      - Relay_ | 2.35Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇨🇳 CN_415
       - 🇨🇳 CN_09
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071 2
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1070
+      - 🇭🇰 HK_1064 | 2.38Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
+      - Relay_ |15.44Mb
+      - 🇭🇰 HK_23 |23.20Mb
+      - Relay_ | 2.35Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
+      - 🇰🇷 Relay_🇰🇷KR-🇷🇺RU_1307 |10.72Mb
+      - Relay_ |21.81Mb
+      - 🇭🇰 HK_1063 | 2.48Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1280
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2474
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1737
+      - Relay_ |21.26Mb
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 CN_415
       - 🇨🇳 CN_10
-      - 🇭🇰 HK_1077
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
-      - Relay_ | 2.35Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇨🇳 CN_415
       - 🇨🇳 CN_09
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071 2
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1070
+      - 🇭🇰 HK_1064 | 2.38Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
+      - Relay_ |15.44Mb
+      - 🇭🇰 HK_23 |23.20Mb
+      - Relay_ | 2.35Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
+      - 🇰🇷 Relay_🇰🇷KR-🇷🇺RU_1307 |10.72Mb
+      - Relay_ |21.81Mb
+      - 🇭🇰 HK_1063 | 2.48Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1280
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2474
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1737
+      - Relay_ |21.26Mb
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_415
       - 🇨🇳 CN_10
-      - 🇭🇰 HK_1077
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
-      - Relay_ | 2.35Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇨🇳 CN_415
       - 🇨🇳 CN_09
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071 2
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1070
+      - 🇭🇰 HK_1064 | 2.38Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
+      - Relay_ |15.44Mb
+      - 🇭🇰 HK_23 |23.20Mb
+      - Relay_ | 2.35Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
+      - 🇰🇷 Relay_🇰🇷KR-🇷🇺RU_1307 |10.72Mb
+      - Relay_ |21.81Mb
+      - 🇭🇰 HK_1063 | 2.48Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1280
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2474
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1737
+      - Relay_ |21.26Mb
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_415
       - 🇨🇳 CN_10
-      - 🇭🇰 HK_1077
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
-      - Relay_ | 2.35Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇨🇳 CN_415
       - 🇨🇳 CN_09
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071 2
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1070
+      - 🇭🇰 HK_1064 | 2.38Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
+      - Relay_ |15.44Mb
+      - 🇭🇰 HK_23 |23.20Mb
+      - Relay_ | 2.35Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
+      - 🇰🇷 Relay_🇰🇷KR-🇷🇺RU_1307 |10.72Mb
+      - Relay_ |21.81Mb
+      - 🇭🇰 HK_1063 | 2.48Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1280
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2474
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1737
+      - Relay_ |21.26Mb
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -138,15 +210,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_415
       - 🇨🇳 CN_10
-      - 🇭🇰 HK_1077
-      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
-      - Relay_ | 2.35Mb
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇨🇳 CN_415
       - 🇨🇳 CN_09
-      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071 2
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1070
+      - 🇭🇰 HK_1064 | 2.38Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇹🇼TW_1071
+      - Relay_ |15.44Mb
+      - 🇭🇰 HK_23 |23.20Mb
+      - Relay_ | 2.35Mb
+      - 🇭🇰 Relay_🇭🇰HK-🇺🇸US_1075
+      - 🇰🇷 Relay_🇰🇷KR-🇷🇺RU_1307 |10.72Mb
+      - Relay_ |21.81Mb
+      - 🇭🇰 HK_1063 | 2.48Mb
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1285
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_1280
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2474
+      - 🇸🇬 Relay_🇸🇬SG-🇸🇬SG_1737
+      - Relay_ |21.26Mb
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -3515,3 +3596,4 @@ rules:
  - IP-CIDR,101.199.196.0/22,🎯 全球直连,no-resolve
  - GEOIP,CN,🎯 全球直连
  - MATCH,🐟 漏网之鱼
+
